@@ -8,7 +8,7 @@
 int main(void)
 {
 	/*string initialisation*/
-	char mystr[100] = "\"Programming is like building a multilingual puzzle \n";
+	char mystr[100] = "\"Programming is like building a multilingual puzzle";
 
 	/*writing the string to stout*/
 	puts(mystr);
