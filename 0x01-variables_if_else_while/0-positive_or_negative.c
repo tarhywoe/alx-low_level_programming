@@ -17,17 +17,17 @@ int main(void)
 	/*giving the command to print number is positive if greater than zero*/
 	if (n > 0)
 	{
-		printf("%d is positive \n", n);
+		printf("%d is positive\n", n);
 	}
 	/*the command to print number is zero if equal to zero*/
 	else if (n == 0)
 	{
-		printf("%d is zero \n", n);
+		printf("%d is zero\n", n);
 	}
 	/*otherwise number is printed as negative*/
 	else
 	{
-		printf("%d is negative \n", n);
+		printf("%d is negative\n", n);
 	}
 
 	/*the command to end the program*/
