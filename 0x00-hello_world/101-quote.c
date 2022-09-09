@@ -13,7 +13,7 @@ int main(void)
 	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
 	/*without using put() and printf(), we will print the string*/
-		write(2, str, 80);
+		write(2, str, 59);
 
 	return (1);
 
