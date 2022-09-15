@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	long int n1 = 0, n2 = 1, fn, Tn;
+	unsigned long n1 = 0, n2 = 1, fn;
+	float Tn;
 
 	while (1)
 	{
@@ -22,7 +23,7 @@ int main(void)
 
 
 	}
-	printf("%ld\n", Tn);
+	printf("%.0f\n", Tn);
 
 	return (0);
 }
