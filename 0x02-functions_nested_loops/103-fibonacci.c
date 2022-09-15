@@ -12,13 +12,14 @@ int main(void)
 	while (fn <= 4000000)
 	{
 		fn = n1 + n2;
+		n1 = n2;
+		n2 = fn;
+
 
 		if ((fn % 2) == 0)
 			Tn += fn;
 
 
-		n1 = n2;
-		n2 = fn;
 	}
 	printf("%ld\n", Tn);
 
